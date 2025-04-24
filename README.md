@@ -3,7 +3,7 @@ Plataforma web de apuestas deportivas con IA para actualizar marcadores en tiemp
 
 # 🎓 Tesis: Plataforma de Apuestas Deportivas con IA
 
-Este proyecto corresponde a la tesis de Alejandro y su compañero. Consiste en una **plataforma web de apuestas deportivas locales**, que actualiza **estadísticas y marcadores en tiempo real** utilizando un modelo de **inteligencia artificial** para predecir resultados.
+Este proyecto corresponde a la tesis de Alejandro y Alexis. Consiste en una **plataforma web de apuestas deportivas locales**, que actualiza **estadísticas y marcadores en tiempo real** utilizando un modelo de **inteligencia artificial** para predecir resultados.
 
 ## 📌 Objetivos
 - Crear una interfaz web atractiva para realizar apuestas.
@@ -30,6 +30,7 @@ tesis-apuestas-deportivas/
 ├── docs/                     # Documentación, cronograma, capturas, presentaciones
 ├── README.md                 # Descripción general del proyecto
 └── .gitignore                # Archivos que Git debe ignorar
+
 ---
 
 ## 👥 División de Trabajo
@@ -73,3 +74,20 @@ tesis-apuestas-deportivas/
 
 ---
 
+## ✅ Primeras tareas realizadas
+
+Planificacion: difinir 
+               -nombre de la plataforma
+               -el estilo de las interfaces
+               -decidir la organizacion 
+
+---
+
+## ✅ Primeras decisiones tomadas
+
+NOMBRE DE LA PLATAFORMA:
+- ECUAFUT
+NOMBRE DE LA CASA DE APUESTAS:
+- CHULLAGOL
+
+---
