@@ -16,7 +16,22 @@ Este proyecto corresponde a la tesis de Alejandro y su compañero. Consiste en u
 
 ## 📁 Estructura del proyecto
 
-tesis-apuestas-deportivas/ │ ├── backend/ # API, lógica del servidor, base de datos, IA │ ├── api/ │ ├── modelos/ │ └── ia/ │ ├── frontend/ # Interfaz de usuario │ ├── public/ │ └── src/ │ └── componentes/ │ ├── docs/ # Documentación y avances ├── README.md # Descripción del proyecto └── .gitignore
+tesis-apuestas-deportivas/
+│
+├── backend/                  # Lógica del servidor y procesamiento
+│   ├── api/                  # Endpoints de la API
+│   ├── modelos/              # Modelos de datos y lógica de negocio
+│   └── ia/                   # Código del modelo de inteligencia artificial
+│
+├── frontend/                 # Interfaz de usuario
+│   ├── public/               # Archivos públicos (favicon, index.html, etc.)
+│   └── src/                  # Código fuente de React/Vue/JS
+│       └── componentes/      # Componentes reutilizables (Navbar, Footer, etc.)
+│
+├── docs/                     # Documentación, cronograma, capturas, presentaciones
+├── README.md                 # Descripción general del proyecto
+└── .gitignore                # Archivos que Git debe ignorar
+
 
 
 ---
