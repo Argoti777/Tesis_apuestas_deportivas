@@ -13,7 +13,23 @@ Este proyecto corresponde a la tesis de Alejandro y su compañero. Consiste en u
 - Integrar todo en un sistema funcional, moderno y fácil de usar.
 
 ---
+## 📁 Estructura del proyecto
 
+tesis-apuestas-deportivas/
+│
+├── backend/                  # Lógica del servidor y procesamiento
+│   ├── api/                  # Endpoints de la API
+│   ├── modelos/              # Modelos de datos y lógica de negocio
+│   └── ia/                   # Código del modelo de inteligencia artificial
+│
+├── frontend/                 # Interfaz de usuario
+│   ├── public/               # Archivos públicos (favicon, index.html, etc.)
+│   └── src/                  # Código fuente de React/Vue/JS
+│       └── componentes/      # Componentes reutilizables (Navbar, Footer, etc.)
+│
+├── docs/                     # Documentación, cronograma, capturas, presentaciones
+├── README.md                 # Descripción general del proyecto
+└── .gitignore                # Archivos que Git debe ignorar
 ---
 
 ## 👥 División de Trabajo
@@ -56,20 +72,4 @@ Este proyecto corresponde a la tesis de Alejandro y su compañero. Consiste en u
 📍 En planificación y construcción inicial (abril 2025)
 
 ---
-## 📁 Estructura del proyecto
 
-tesis-apuestas-deportivas/
-│
-├── backend/                  # Lógica del servidor y procesamiento
-│   ├── api/                  # Endpoints de la API
-│   ├── modelos/              # Modelos de datos y lógica de negocio
-│   └── ia/                   # Código del modelo de inteligencia artificial
-│
-├── frontend/                 # Interfaz de usuario
-│   ├── public/               # Archivos públicos (favicon, index.html, etc.)
-│   └── src/                  # Código fuente de React/Vue/JS
-│       └── componentes/      # Componentes reutilizables (Navbar, Footer, etc.)
-│
-├── docs/                     # Documentación, cronograma, capturas, presentaciones
-├── README.md                 # Descripción general del proyecto
-└── .gitignore                # Archivos que Git debe ignorar
