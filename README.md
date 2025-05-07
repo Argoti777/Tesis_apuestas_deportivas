@@ -94,3 +94,68 @@ COLORES A UTILIZAR:
 - VERDE OSCURO
 - BLANCO
 ---
+
+
+## ✅ RECOLECCION DE DATOS
+
+¿Que funcionalidades debe tener nuestra plataforma?
+
+-REGISTRAR CON DOS TIPOS DE USUARIOS ADMINISTRADOR Y USUARIO
+-INICIO DE SESION
+-VIZUALISACION DE ESTADISTICAS
+-VIZUALISACION DE CRONOGRAMAS DE PARTIDOS 
+
+estructura del proyecto
+
+TESIS_PROYECTO/
+│── backend/
+│   ├── api/
+│   │   └── auth.js       # Controlador para login y registro
+│   │   └── bets.js       # Controlador para apuestas
+│   │   └── matches.js    # Controlador para partidos
+│   │
+│   ├── modelos/
+│   │   └── User.js       # Modelo de usuario
+│   │   └── Bet.js        # Modelo de apuesta
+│   │   └── Match.js      # Modelo de partido
+│   │
+│   ├── config/
+│   │   └── db.js         # Configuración de la base de datos
+│   │   └── server.js     # Configuración del servidor
+│   │
+│   ├── middlewares/
+│   │   └── authMiddleware.js  # Verificación de autenticación
+│   │
+│   ├── utils/
+│   │   └── token.js      # Funciones para manejo de tokens JWT
+│   │
+│   └── server.js         # Punto de entrada del backend
+│
+│── frontend/
+│   ├── componentes/
+│   │   └── Login.jsx     # Componente de inicio de sesión
+│   │   └── Register.jsx  # Componente de registro
+│   │   └── Navbar.jsx    # Barra de navegación
+│   │   └── Dashboard.jsx # Componente principal del usuario
+│   │
+│   ├── context/
+│   │   └── AuthContext.js # Contexto para manejo de autenticación
+│   │
+│   ├── pages/
+│   │   └── Home.jsx      # Página de inicio
+│   │   └── Profile.jsx   # Página del perfil del usuario
+│   │   └── Bets.jsx      # Página de apuestas
+│   │
+│   ├── styles/
+│   │   └── main.css      # Estilos globales
+│   │
+│   └── App.jsx           # Punto de entrada del frontend
+│
+│── docs/
+│   └── README.md         # Documentación general del proyecto
+│   └── api_docs.md       # Documentación de los endpoints
+│   └── db_design.png     # Diagrama ERD de la base de datos
+│
+│── .env                  # Variables de entorno (credenciales DB, JWT secret)
+│── package.json          # Dependencias del proyecto
+│── .gitignore            # Archivos a ignorar por Git
